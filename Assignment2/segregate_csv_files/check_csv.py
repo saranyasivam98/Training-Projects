@@ -272,8 +272,4 @@ def main():
         ambiguity(unique_dates)
     else:
         LOGGER.error("The directory doesnt exist")
-        print(dir_path)
 
-
-if __name__ == '__main__':
-    main()
