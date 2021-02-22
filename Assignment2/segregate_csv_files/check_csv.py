@@ -29,6 +29,10 @@ __author__ = 'saranya@gyandata.com'
 LOGGER = logging.getLogger('root')
 LOGGER_CONFIG_PATH = 'config/logging.json'
 
+FMTS = ('%d-%m-%y', '%d-%m-%Y', '%m-%d-%Y', '%m-%d-%y', '%y-%m-%d',
+          '%Y-%m-%d', '%Y-%d-%m', '%y-%d-%m', '%b-%d-%Y',
+          '%b-%d-%y', '%B-%d-%Y', '%B-%d-%y', '%d-%b-%Y', '%d-%b-%y', '%d-%B-%Y', '%d-%B-%y')
+
 
 def setup_logging(default_path=LOGGER_CONFIG_PATH):
     """
